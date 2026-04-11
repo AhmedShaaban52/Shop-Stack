@@ -15,7 +15,6 @@ import OtpEmail from "./emails/otp-email";
 
 export const auth = betterAuth({
   // Base path where auth routes are mounted
-  // baseURL: process.env.BETTER_AUTH_URL,
   basePath: "/api/auth",
 
   // App name for TOTP issuer
